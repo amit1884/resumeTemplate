@@ -1,0 +1,205 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Class
+% Version 2.0 (12/10/23)
+%
+% This class originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Omar Roldan
+% Based on a template by  Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+\usepackage{multicol}
+\setlength{\columnsep}{0mm}
+%----------------------------------------------------------------------------------------
+\usepackage{lipsum}  
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.5\textwidth} 
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	{ \fontsize{16}{20} \textcolor{black}{\textbf{\MakeUppercase{Amit Raj}}}} % First name
+	
+	\vspace{6pt}
+	
+	{\Large Software Engineer} % Career or current job title
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.2\textwidth} % 20% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	
+    \icon{Phone}{11}{6205352095}\\
+    \icon{MapMarker}{11}{Bangalore, India}\\
+	
+\end{minipage}
+\begin{minipage}[t]{0.27\textwidth} % 27% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\icon{Envelope}{11}{\href{mailto:email@example.com}{amitraj200raj@gmail.com}}\\	
+    \icon{Github}{11}{\href{https://github.com/uma-dev}{github.com/amit1884}}\\
+    \icon{LinkedinSquare}{11}{\href{https://www.linkedin.com}{/in/amit-raj-ab5a8a181/}}\\    
+    
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.46\textwidth}
+    \cvsect{Summary}
+	\vspace{-6pt}
+ 
+    %Dummy text
+	\lipsum[1][1-5] \\
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.465\textwidth}
+    \cvsect{Skills}
+    \vspace{-6pt}
+    
+    \begin{minipage}[t]{0.2\textwidth}
+        \textbf{Languages:}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.73\textwidth}
+     Javascript, C, C++, Java, Kotlin
+    \end{minipage}
+    \vspace{4mm}
+    
+    \begin{minipage}[t]{0.2\textwidth}
+        \textbf{Technologies:}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.73\textwidth}
+      React.Js, Next.Js, Node.Js, Redux, Redux-Saga, Selenium, Git, MongoDB,MySQL, Android Development, Object Oriented Programming
+    \end{minipage}
+    
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+%	Projects
+%----------------------------------------------------------------------------------------
+\cvsect{Projects}
+\begin{entrylist}
+    \entry
+		{MERN Stack}
+		{Chat Application}
+		{https://github.com/amit1884/ChatApp}
+		{%Dummy text 
+        Created a MERN stack chat app enabling secure one-on-one conversations with added friends. Implemented JWT authentication for enhanced security and delivered an intuitive user interface for seamless communication.}
+    \entry
+		{Node.js+MySQL}
+		{Library Mangement System}
+		{https://github.com/amit1884/OnlineShopping}
+		{%Dummy text 
+        Developed a dynamic e-commerce web application using Node.js and MongoDB, featuring robust JWT authentication. Users can easily add and manage products, facilitating seamless buying and selling experiences.}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\vspace{-10 pt}
+\cvsect{Education}
+\begin{entrylist}
+    \entry
+		{7/2018 - 5/2022}
+		{Bachelor of Technology, Computer Science and Engineering }
+		{National Institute of Technology, Jamshedpur}
+		{Graduated, 8.29 CGPA}
+    \entry
+		{3/2015 - 5/2017}
+		{12th Standard}
+		{Tender Heart Sr. Sec. School, Ranchi}
+		{81.8\%}
+	\entry
+		{3/2013 - 5/2015}
+		{10th Standard}
+		{Tender Heart Sr. Sec. School, Ranchi}
+		{9.8 CGPA}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+\vspace{-10 pt}
+\cvsect{Experience}
+\begin{entrylist}
+	\entry
+        {06/2022}
+		{Software Engineer}
+		{Byju's}
+		{\vspace{-10pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+            \item Developing an in house CRM tool, has complete ownership and leading the front end development of the project.
+            \item Mentoring freshers and doing code reviews.
+            \item Coordinating with back end, design and the product team to meet the requirements.
+            \item Also worked on android projects like DSSL, SchoolOS and BLTV.
+        \end{itemize} 
+        \texttt{React.Js} \slashsep \texttt{Next.Js}\slashsep \texttt{SCSS}\slashsep \texttt{Git}\slashsep \texttt{Kotlin}}
+	\entry
+		{1/2022 -- 4/2022}
+		{Software Developer Engineer - Intern}
+		{Anchanto}
+		{\vspace{-10pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+            \item Developed the frontend of the Control Tower project using modern web technologies such as Next.js and SCSS.
+            \item Implemented unit testing in Next.js and SCSS to ensure the quality and reliability of the codebase.
+            \item Demonstrated a strong understanding of web development principles, including responsive design, accessibility, and SEO.
+        \end{itemize} 
+        \texttt{Next.Js} \slashsep \texttt{SCSSl}\slashsep \texttt{Cypress}\slashsep \texttt{Git}}
+	\entry
+		{3/2021 -- 7/2021 \\\footnotesize{scholarship holder}}
+		{Frontend Developer - Intern}
+		{Collegedunia}
+		{\vspace{-10pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+            \item Collaborated with in-house web designers to create sleek and innovative UI design.
+            \item Designed and updated layouts to meet usability and performance requirements.
+            \item Conducted unit testing to deliver optimal browser functionality.
+        \end{itemize} 
+        \texttt{SQL} \slashsep \texttt{Excel}}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	Achievements
+%----------------------------------------------------------------------------------------
+\cvsect{Achievements}
+\begin{entrylist}
+    \entry
+		{}
+		{Winner of Smart India Hackathon 2019 Software Edition (Internals)}
+		{}
+		{%Dummy text 
+        Developed a vaccination alert system for rural areas which will help parents to get their children vaccinated on time.}
+    \entry
+		{}
+		{Second Runner Up in Console.log('Replicate')}
+		{}
+		{%Dummy text 
+        An event from Dhruva 2021 - Technical fest of IIIT Kottayam.}
+\end{entrylist}
+
+
+\end{document}
