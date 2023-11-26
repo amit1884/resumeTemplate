@@ -72,7 +72,7 @@
 	\vspace{-6pt}
  
     %Dummy text
-	\lipsum[1][1-5] \\
+	I am a software development professional with 1.5 years of experience, holding a B.Tech degree in Computer Science and Engineering from NIT Jamshedpur. My expertise lies in frontend development. Additionally, I have a keen interest in backend technologies.\\
 \end{minipage}
 \hfill % Whitespace between
 \begin{minipage}[t]{0.465\textwidth}
@@ -179,7 +179,7 @@
             \item Designed and updated layouts to meet usability and performance requirements.
             \item Conducted unit testing to deliver optimal browser functionality.
         \end{itemize} 
-        \texttt{SQL} \slashsep \texttt{Excel}}
+        \texttt{Next.Js} \slashsep \texttt{SCSS}}
 \end{entrylist}
 
 %----------------------------------------------------------------------------------------
